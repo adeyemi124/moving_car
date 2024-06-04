@@ -1,0 +1,27 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    background-image: url(images/backimage.jpg);
+    background-size: cover;
+}
+
+.car{
+    margin-left: 800px;
+    margin-top: 400px;
+    animation: realcar 1s ease-in-out 1s infinite  ;
+ 
+}
+
+@keyframes realcar {
+    0% {
+        transform: translate(2px);
+
+    }
+    100%{
+        transform: translate(-2000px);
+    }
+}
